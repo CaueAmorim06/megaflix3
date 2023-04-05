@@ -1,0 +1,15 @@
+@import "header.css";
+@import "caracteristicas.css";
+@import "filmesPrincipais.css";
+@import "desenvolvidoCaue.css";
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+@media only screen and (max-width: 992px){
+    .main{
+        display: none;
+    }    
+}

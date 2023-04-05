@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Kanit:wght@300&family=Poppins&display=swap');
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    grid-row-start: 1;
+    grid-column: 1/13;
+}
+
+li{
+    display: inline-block;
+    margin-right: 8px;
+    color: rgb(255, 255, 255);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Poppins;    
+    
+}
+
+.logo{
+    width: 92px;
+    height: 72px;
+}
+
+.logo__div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h6{
+    font-family: Kanit;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+}
+
+header{
+    background-image:url(/images/filmes.png);
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    background-size: cover;
+}
+
+.home{
+    color: #fd0178;
+}
+
+hr{
+    border-color: #fd0178;
+    margin-top: 4px;
+    display: flex;
+}
+
+h1{
+    grid-row-start: 3;
+    grid-column-start: 2;
+    color:white;
+    font-family: Poppins;
+    grid-column: 2/6;
+}
+
+h2{
+    grid-row-start: 4;
+    color:white;
+    font-family: Poppins;
+    grid-column-start: 2;    
+    font-size: 18px;
+    grid-column: 2/8;
+}
+
+.btn{
+    grid-row-start: 6;
+    grid-column-start: 2;
+    display: flex;
+}
+
+.btn__start{
+    background-color: #fd0178;
+    width: 200px;
+    height: 50px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn__plan{
+   background-color: #252c57;
+    width: 200px;
+    height: 50px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+@media only screen and (min-width: 1020px){
+    .menu__links{
+        display: none;
+    }
+}
